@@ -1,0 +1,51 @@
+.view-container
+{
+	position: absolute;
+}
+
+.flow-step
+{
+	top: 20px;
+	left: 50px;
+	
+	position: fixed;
+	padding: 20px;
+	display: block;
+	border-radius: 20px;
+	border: solid 2px black;
+	text-align: center;
+	overflow: hidden;
+}
+
+.flow-step-center
+{
+	left: 150px;
+	top:100px;
+	position: absolute;
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+	padding: 20px;
+	border-radius: 20px;
+	border: solid 2px black;
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+}
+
+div.flow-step:hover,
+div.flow-step-center:hover
+{
+	border: solid 2px red;
+}
+
+line
+{
+	stroke:rgb(0,0,0);stroke-width:2;
+	pointer-events:all;
+}
+
+line:hover
+{
+	stroke:rgb(255,0,0);stroke-width:3;
+}
